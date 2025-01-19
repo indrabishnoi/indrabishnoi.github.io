@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 #### About me
 I recently completed my doctoral degree in the field of Neuroscience, working at the interface between behavioural and cognitive neuroscience, immunology, and cancer research.
 
-Co-supervised in the lab of Dr. Klaus-Peter Ossenkopp and Dr. Martin Kavaliers at Western University, my research currently focuses on the development of a model of anticipatory nausea based on conditioned disgust behaviours and the influence of immune activation on these behaviours.
+Co-supervised in the lab of [Dr. Klaus-Peter Ossenkopp](https://www.psychology.uwo.ca/people/faculty/profiles/ossenkopp.html) and [Dr. Martin Kavaliers](https://www.psychology.uwo.ca/people/faculty/profiles/kavaliers.html) at Western University, my research currently focuses on the development of a model of anticipatory nausea based on conditioned disgust behaviours and the influence of immune activation on these behaviours.
 
 But what does that really mean? Anticipatory nausea is best explained within the context of chemotherapy. Chemotherapy is a cancer treatment that undeniably saves millions of lives worldwide. Yet, millions of treatable patients decide to drop out of this treatment. Why?
 
