@@ -1,7 +1,7 @@
 ---
 layout: page
 title: sustainability
-nav: true
+nav: false
 permalink: /sustainability/
 ---
 
