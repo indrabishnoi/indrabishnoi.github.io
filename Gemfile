@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '~> 4.3'
+gem 'jekyll-archives', '~> 2.3'
+gem 'jekyll-sass-converter', '~> 2.1'  # Example: specify a version that is compatible
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'jekyll-archives'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
