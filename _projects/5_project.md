@@ -7,6 +7,9 @@ importance: 3
 category: fun
 ---
 
+
+When I am not at the lab, I enjoy surrounding myself with nature. With recent global events, this fondness for nature has driven me to lend a voice to environmental activism in my community. London has afforded me the opportunity to make some important changes – from the first climate declaration at Western University to advocacy about the environmental impact of everyday things. Now in my spare time I enjoy helping businesses with their most pressing sustainability concerns. 
+
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
