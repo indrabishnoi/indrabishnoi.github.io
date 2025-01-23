@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Behavioural Researcher | Sustainability Consultant | Western University
+subtitle: Neurobehavioral Researcher | Massachusetts General Hospital & Harvard Medical School
 
 profile:
   align: right

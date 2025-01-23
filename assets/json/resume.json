@@ -38,15 +38,15 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Western University",
+      "location": "London, Canada",
+      "url": "https://ir.lib.uwo.ca/etd/9701/",
+      "area": "Neuroscience",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2018-05-01",
+      "endDate": "2023-10-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Specializations: Behavioural Neuroscience, Psychoneuroimmunology, Neurodevelopment, Endocrinology"]
     }
   ],
   "awards": [
