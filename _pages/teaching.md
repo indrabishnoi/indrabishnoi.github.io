@@ -21,6 +21,6 @@ nav_order: 6
 - Watch [the evolution of antibiotic resistent bacteria](https://youtu.be/plVk4NVIUh8?si=P7N4SeNyEQhxl2m1)
 - Finally, one of my personal favourite topics, [why are octopi so intelligent?](https://youtu.be/JOV-DlxTiFU?si=5DY7qN0RQhyi13lk) Bonus, take a look at [Sashimi escaping a maze](https://youtu.be/7__r4FVj-EI?si=5-2xTK0q4falDrO9)
 
-#### Resources I've Made
-These are open access resources that I have created. Feel free to use them and let me know if you have any suggestions on how to make it better!
+#### Resources I've Created
+These are open access resources that I have made. Feel free to use them and let me know if you have any suggestions on how to make them better!
 - [Object Recognition Crossword](../assets/pdf/Object%20Recognition%20Crossword.pdf) and [Answers](../assets/pdf/Object%20Recognition%20Crossword%20-%20Answers.pdf)
