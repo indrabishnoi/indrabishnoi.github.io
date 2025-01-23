@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Neurobehavioral Researcher @ Massachusetts General Hospital & Harvard Medical School
-
+subtitle: Neurobehavioral Researcher
 profile:
   align: right
   image: profile.jpg
