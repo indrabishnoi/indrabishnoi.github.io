@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Here I have included my favourite materials and resources from teaching Neuropsychology and Cognitive Neuroscience and Cognitive Science at Western University. I recommend using these resources for your own teaching and/or learning!",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -430,14 +437,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%69%62%69%73%68%6E%6F%69@%6D%67%68.%68%61%72%76%61%72%64.%63%6F%6D", "_blank");
+          window.open("mailto:%69%62%69%73%68%6E%6F%69@%6D%67%68.%68%61%72%76%61%72%64.%65%64%75", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
+        id: 'social-researchgate',
+        title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/indrabishnoi", "_blank");
+          window.open("https://www.researchgate.net/profile/Indra-Bishnoi/", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -445,6 +452,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=5WyfFmwAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/indrabishnoi", "_blank");
         },
       },{
       id: 'light-theme',
