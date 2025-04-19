@@ -52,19 +52,7 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-let-s-talk-science-the-environmental-impact-of-clothes-what-can-you-do",
-          title: 'Let’s Talk Science: The environmental impact of clothes: What can you do?',
-          description: "",
-          section: "News",},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-phd-research",
+    },{id: "projects-phd-research",
           title: 'PhD Research',
           description: "The effects of lipopolysaccharide (LPS) on conditioned disgust. Expanding the rodent model of lithium chloride (LiCl)-induced anticipatory nausea.",
           section: "Projects",handler: () => {
