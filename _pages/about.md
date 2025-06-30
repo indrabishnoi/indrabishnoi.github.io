@@ -14,12 +14,13 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 # MARKDOWN CHEATSHEET (https://www.markdownguide.org/cheat-sheet/)
+# and [Harvard Medical School](https://hms.harvard.edu/) 
 ---
 
 <br>
 
 #### About me
-I am a first-year `Postdoctoral Research Fellow` at [Massachusetts General Hospital](https://www.massgeneral.org/) and [Harvard Medical School](https://hms.harvard.edu/) advised by [Dr. Evan Bordt](https://www.bordtlab.com/). 
+I am a first-year `Postdoctoral Research Fellow` at [Massachusetts General Hospital](https://www.massgeneral.org/) advised by [Dr. Evan Bordt](https://www.bordtlab.com/). 
 
 Supported by the Robert and Donna Landreth Fellowship, I work on several projects aimed at understanding environmental and genetic contributions to autism spectrum disorder and other neurodevelopmental disorders.
 
