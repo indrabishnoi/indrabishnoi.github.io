@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 <br>
 
 #### About me
-I am a first-year `Postdoctoral Research Fellow` at [Massachusetts General Hospital](https://www.massgeneral.org/) and [Harvard Medical School](https://hms.harvard.edu/) advised by [Dr. Evan Bordt](https://www.bordtlab.com/). 
+I am a `Postdoctoral Research Fellow` at [Massachusetts General Hospital](https://www.massgeneral.org/) and [Harvard Medical School](https://hms.harvard.edu/) advised by [Dr. Evan Bordt](https://www.bordtlab.com/). 
 
 Supported by the Robert and Donna Landreth Fellowship, I work on several projects aimed at understanding environmental and genetic contributions to autism spectrum disorder and other neurodevelopmental disorders.
 

@@ -1345,3 +1345,199 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+/******************************************************************************
+ * Homepage Animations (only on homepage - permalink: /)
+ ******************************************************************************/
+
+// Navbar dropdown animation (only on homepage)
+body.homepage #navbar {
+  animation: navbarSlideDown 0.8s ease-out;
+}
+
+@keyframes navbarSlideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+// Homepage-specific animations
+body.homepage .post {
+  // Title fade down
+  .post-header .post-title {
+    animation: fadeDown 0.8s ease-out 0.2s both;
+  }
+  
+  // Subtitle fade down (slightly after title)
+  .post-header .desc {
+    animation: fadeDown 0.8s ease-out 0.3s both;
+  }
+
+  // Body text fade down (after title and subtitle)
+  .clearfix {
+    animation: fadeDown 0.8s ease-out 0.4s both;
+  }
+
+  // Profile picture fade in (after title and body)
+  .profile {
+    animation: fadeIn 1s ease-out 0.6s both;
+  }
+
+  // Social icons fade in (same time as profile)
+  .social {
+    animation: fadeIn 1s ease-out 0.6s both;
+  }
+}
+
+// Animation keyframes
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/******************************************************************************
+ * Publications Page Animations
+ ******************************************************************************/
+
+// Navbar dropdown animation
+body.publications-page #navbar {
+  animation: navbarSlideDown 0.8s ease-out;
+}
+
+body.publications-page .post {
+  // Title fade down
+  .post-header .post-title {
+    animation: fadeDown 0.8s ease-out 0.2s both;
+  }
+  
+  // Description fade down
+  .post-header .post-description {
+    animation: fadeDown 0.8s ease-out 0.3s both;
+  }
+
+  // Bibsearch and intro text fade down
+  article > *:not(.publications) {
+    animation: fadeDown 0.8s ease-out 0.4s both;
+  }
+
+  // Publications list fade in
+  .publications {
+    animation: fadeIn 1s ease-out 0.5s both;
+    
+    // Individual publication items fade in sequentially
+    ol.bibliography > li,
+    .bibliography > li {
+      animation: fadeInUp 0.6s ease-out both;
+      
+      @for $i from 1 through 20 {
+        &:nth-child(#{$i}) {
+          animation-delay: #{0.6 + ($i * 0.05)}s;
+        }
+      }
+    }
+  }
+}
+
+/******************************************************************************
+ * Projects Page Animations
+ ******************************************************************************/
+
+// Navbar dropdown animation
+body.projects-page #navbar {
+  animation: navbarSlideDown 0.8s ease-out;
+}
+
+body.projects-page .post {
+  // Title fade down
+  .post-header .post-title {
+    animation: fadeDown 0.8s ease-out 0.2s both;
+  }
+  
+  // Description fade down
+  .post-header .post-description {
+    animation: fadeDown 0.8s ease-out 0.3s both;
+  }
+
+  // Project cards fade in sequentially
+  .projects .row .col {
+    animation: fadeInUp 0.6s ease-out both;
+    
+    @for $i from 1 through 20 {
+      &:nth-child(#{$i}) {
+        animation-delay: #{0.5 + ($i * 0.08)}s;
+      }
+    }
+  }
+  
+  // Category headings fade down (with delay after title)
+  .projects h2.category {
+    animation: fadeDown 0.8s ease-out 0.4s both;
+  }
+}
+
+/******************************************************************************
+ * Teaching Page Animations
+ ******************************************************************************/
+
+// Navbar dropdown animation
+body.teaching-page #navbar {
+  animation: navbarSlideDown 0.8s ease-out;
+}
+
+body.teaching-page .post {
+  // Title fade down
+  .post-header .post-title {
+    animation: fadeDown 0.8s ease-out 0.2s both;
+  }
+  
+  // Description fade down
+  .post-header .post-description {
+    animation: fadeDown 0.8s ease-out 0.3s both;
+  }
+
+  // Article content sections fade in
+  article {
+    animation: fadeIn 1s ease-out 0.4s both;
+    
+    // Headings fade down
+    h2, h3, h4 {
+      animation: fadeDown 0.8s ease-out 0.5s both;
+    }
+    
+    // Lists and paragraphs fade in
+    ul, ol, p {
+      animation: fadeIn 0.8s ease-out 0.6s both;
+    }
+  }
+}
