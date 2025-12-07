@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "projects-phd-research",
-          title: 'PhD Research',
+        },{id: "projects-my-phd-research",
+          title: 'My PhD Research',
           description: "The effects of lipopolysaccharide (LPS) on conditioned disgust. Expanding the rodent model of lithium chloride (LiCl)-induced anticipatory nausea.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
