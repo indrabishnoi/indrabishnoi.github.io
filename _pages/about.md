@@ -11,7 +11,8 @@ profile:
 
 
 news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
+neuron_image: assets/img/neuron.png # path to neuron image to display beside selected publications
 social: true # includes social icons at the bottom of the page
 # MARKDOWN CHEATSHEET (https://www.markdownguide.org/cheat-sheet/)
 ---

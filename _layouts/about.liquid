@@ -40,6 +40,17 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Neuron border/divider -->
+    {% if page.neuron_image %}
+    <div style="display: flex; align-items: center; margin: 3rem 0; width: 100%;">
+      <div style="flex: 1; height: 1px; background-color: var(--global-divider-color);"></div>
+      <div style="padding: 0 1.5rem;">
+        <img src="{{ page.neuron_image | relative_url }}" alt="Neuron by Miguel Angel on Vecteezy" class="img-fluid" style="max-width: 15vw; height: auto; opacity: 0.6;" />
+      </div>
+      <div style="flex: 1; height: 1px; background-color: var(--global-divider-color);"></div>
+    </div>
+    {% endif %}
+
     <!-- News -->
     {% if page.news and site.announcements and site.announcements.enabled %}
       <h2>
@@ -58,8 +69,8 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      <h2 style="font-size: 1.5rem;">
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
