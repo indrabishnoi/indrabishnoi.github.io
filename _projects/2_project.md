@@ -14,40 +14,40 @@ One of the earliest and most important social bonds for many mammals is the bond
 
 In this research, we investigated whether adolescent mice (postnatal day 26) retain the ability to recognize and prefer their mothers after weaning. We further examined the strength of this bond using an acute immune activator, lipopolysaccharide (LPS), to understand how immune challenges might alter social preferences.
 
-## The Agora Maze SocioBox Method
+<div class="row" style="align-items: center;">
+    <div class="col-md-7">
+        <h2>The Agora Maze SocioBox Method</h2>
 
-This study employed the **Agora SocioBox**, a multi-chamber social behavior task that allows for a more nuanced assessment of social recognition and preference. The apparatus consists of a central open arena connected to multiple compartments, each temporarily housing different stimuli. This setup enables researchers to observe how mice interact with various social and non-social stimuli simultaneously, providing a more comprehensive understanding of social behavior dynamics.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+        <p>This study employed the <strong>Agora SocioBox</strong>, a multi-chamber social behavior task that allows for a more nuanced assessment of social recognition and preference. The apparatus consists of a central open arena connected to multiple compartments, each temporarily housing different stimuli. This setup enables researchers to observe how mice interact with various social and non-social stimuli simultaneously, providing a more comprehensive understanding of social behavior dynamics.</p>
+    </div>
+    <div class="col-md-5 mt-3 mt-md-0" style="max-width: 30vw; margin-left: auto;">
         {% include figure.liquid path="assets/img/agora-apparatus.png" title="Agora Maze SocioBox apparatus" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            The Agora Maze SocioBox apparatus showing the central arena with multiple chambers for different stimuli. You can read more about this methodology in this <a href="https://ugobasile.com/blog/16-research-alert/147-studying-social-behavior-in-juvenile-mice-the-central-role-of-the-ugo-basile-agora-sociobox-method">research alert from Ugo Basile</a>.
+        </div>
     </div>
 </div>
-<div class="caption">
-    The Agora Maze SocioBox apparatus showing the central arena with multiple chambers for different stimuli. You can read more about this methodology in this <a href="https://ugobasile.com/blog/16-research-alert/147-studying-social-behavior-in-juvenile-mice-the-central-role-of-the-ugo-basile-agora-sociobox-method">research alert from Ugo Basile</a>.
 
-</div>
+<div class="row" style="align-items: center;">
+    <div class="col-md-7">
+        <h2>Key Findings</h2>
 
-## Key Findings
+        <p>In our research, the five-chamber social preference task (the AGORA) contains:</p>
+        <ul>
+            <li>The biological mother</li>
+            <li>A sex- and age-matched novel mouse</li>
+            <li>A sex- and age-matched sibling</li>
+            <li>A novel object</li>
+            <li>An empty chamber</li>
+        </ul>
 
-In our research, the five-chamber social preference task (the AGORA) contains:
-- The biological mother
-- A sex- and age-matched novel mouse
-- A sex- and age-matched sibling
-- A novel object
-- An empty chamber
+        <p>Our findings reveal that adolescent mice exhibit a <strong>strong maternal preference</strong>, which was significantly greater than chance and higher compared to any other social or non-social stimuli.</p>
 
-Our findings reveal that adolescent mice exhibit a **strong maternal preference**, which was significantly greater than chance and higher compared to any other social or non-social stimuli.
-
-While LPS exposure reduced the time spent investigating all stimuli, **adolescent maternal preference was not significantly altered by LPS exposure**, demonstrating the resilience of this social bond. These effects were especially pronounced in females, while subtle shifts towards novel exploration began to emerge in males by postnatal day 26.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+        <p>While LPS exposure reduced the time spent investigating all stimuli, adolescent maternal preference was not significantly altered by LPS exposure, demonstrating the resilience of this social bond. <strong>These effects were especially pronounced in females, while subtle shifts towards novel exploration began to emerge in males by postnatal day 26.</strong></p>
+    </div>
+    <div class="col-md-5 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/agora-paper-0.jpg" title="Agora Maze SocioBox experimental setup" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Experimental setup and methodology of the Agora Maze SocioBox for assessing social behavior in juvenile mice.
 </div>
 
 ## Implications
