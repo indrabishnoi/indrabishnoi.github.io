@@ -1541,3 +1541,107 @@ body.teaching-page .post {
     }
   }
 }
+
+/******************************************************************************
+ * Blog Post Page Animations
+ ******************************************************************************/
+
+// Navbar dropdown animation
+body.blog-post #navbar {
+  animation: navbarSlideDown 0.8s ease-out;
+}
+
+body.blog-post .post {
+  // Title fade down
+  .post-header .post-title {
+    animation: fadeDown 0.8s ease-out 0.2s both;
+  }
+  
+  // Post meta (date, author) fade down
+  .post-header .post-meta {
+    animation: fadeDown 0.8s ease-out 0.3s both;
+  }
+  
+  // Post tags fade down
+  .post-header .post-tags {
+    animation: fadeDown 0.8s ease-out 0.35s both;
+  }
+
+  // Post content fade in
+  .post-content {
+    animation: fadeIn 1s ease-out 0.4s both;
+    
+    // Table of contents fade in
+    #table-of-contents {
+      animation: fadeIn 0.8s ease-out 0.5s both;
+    }
+    
+    // Markdown content - main container fades in
+    #markdown-content {
+      animation: fadeIn 1s ease-out 0.5s both;
+    }
+  }
+  
+  // Related posts fade in
+  .related-posts {
+    animation: fadeIn 1s ease-out 0.8s both;
+  }
+  
+  // Citations and references fade in
+  .citation,
+  .publications {
+    animation: fadeIn 1s ease-out 0.8s both;
+  }
+  
+  // Comments section fade in
+  #giscus-container,
+  #disqus_thread {
+    animation: fadeIn 1s ease-out 0.9s both;
+  }
+}
+
+/******************************************************************************
+ * Project Detail Page Animations (individual project pages)
+ ******************************************************************************/
+
+// Navbar dropdown animation
+body.project-detail #navbar {
+  animation: navbarSlideDown 0.8s ease-out;
+}
+
+body.project-detail .post {
+  // Title fade down
+  .post-header .post-title {
+    animation: fadeDown 0.8s ease-out 0.2s both;
+  }
+  
+  // Description fade down
+  .post-header .post-description {
+    animation: fadeDown 0.8s ease-out 0.3s both;
+  }
+
+  // Article content fade in
+  article {
+    animation: fadeIn 1s ease-out 0.4s both;
+    
+    // Headings fade down
+    h1, h2, h3, h4, h5, h6 {
+      animation: fadeDown 0.8s ease-out 0.5s both;
+    }
+    
+    // Paragraphs and lists fade in
+    p, ul, ol, blockquote {
+      animation: fadeIn 0.8s ease-out 0.6s both;
+    }
+    
+    // Images fade in
+    figure, img {
+      animation: fadeIn 1s ease-out 0.7s both;
+    }
+  }
+  
+  // Related publications fade in
+  .publications {
+    animation: fadeIn 1s ease-out 0.8s both;
+  }
+}

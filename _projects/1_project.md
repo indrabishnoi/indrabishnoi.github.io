@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PhD Research
+title: My PhD Research
 description: The effects of lipopolysaccharide (LPS) on conditioned disgust. Expanding the rodent model of lithium chloride (LiCl)-induced anticipatory nausea.
 img: assets/img/western.png
 importance: 1

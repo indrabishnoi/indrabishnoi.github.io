@@ -16,7 +16,9 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %} {% if page.permalink == '/' %}homepage{% endif %} {% if page.permalink == '/publications/' %}publications-page{% endif %} {% if page.permalink == '/projects/' %}projects-page{% endif %} {% if page.permalink == '/teaching/' %}teaching-page{% endif %}">
+  {% assign url_beginning = page.url | slice: 0, 6 %}
+  {% assign projects_url_start = page.url | slice: 0, 10 %}
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %} {% if page.permalink == '/' %}homepage{% endif %} {% if page.permalink == '/publications/' %}publications-page{% endif %} {% if page.permalink == '/projects/' %}projects-page{% endif %} {% if page.permalink == '/teaching/' %}teaching-page{% endif %} {% if url_beginning == '/blog/' and page.permalink != '/blog/' %}blog-post{% endif %} {% if page.collection == 'projects' %}project-detail{% endif %}">
     <!-- Header -->
     {% include header.liquid %}
 
