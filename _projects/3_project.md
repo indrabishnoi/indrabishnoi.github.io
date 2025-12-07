@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The World's Best Tiramisu Recipe
-description: A detailed recipe for making the world's best tiramisu, with perfect technique for moist ladyfingers and creamy mascarpone layers.
+description: A recipe for making the world's best tiramisu, with perfect technique for moist ladyfingers and creamy mascarpone layers.
 img: assets/img/tiramisu.JPG
 importance: 3
 category: culinary
