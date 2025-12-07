@@ -42,7 +42,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-the-world-39-s-best-tiramisu-recipe",
           title: 'The World&amp;#39;s Best Tiramisu Recipe',
-          description: "A detailed recipe for making the world&#39;s best tiramisu, with perfect technique for moist ladyfingers and creamy mascarpone layers.",
+          description: "A recipe for making the world&#39;s best tiramisu, with perfect technique for moist ladyfingers and creamy mascarpone layers.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{
