@@ -35,9 +35,9 @@ ninja.data = [{
           description: "The effects of lipopolysaccharide (LPS) on conditioned disgust. Expanding the rodent model of lithium chloride (LiCl)-induced anticipatory nausea.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-maternal-preference-in-post-weaning-mice",
-          title: 'Maternal Preference in Post-Weaning Mice',
-          description: "Investigating resilient maternal preference in juvenile mice using the Agora Maze SocioBox method, examining how social bonds persist after weaning and their resilience to immune activation.",
+            },},{id: "projects-maternal-preference-in-adolescence",
+          title: 'Maternal Preference in Adolescence',
+          description: "Investigating resilient maternal preference in adolescence using the Agora Maze SocioBox method.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{
