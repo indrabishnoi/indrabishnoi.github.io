@@ -26,4 +26,6 @@ Supported by the **[Banting Postdoctoral Fellowship](https://banting.fellowships
 
 My research focuses on three intersecting areas: (1) the cell-type-specific roles of the gene **CHD8** in autism, (2) how **immune activation** shapes neurodevelopment, and (3) the **sex-dependent** influences of these processes. Together, these studies probe how immune challenges and genetic risk interact to influence brain and behavioral development in a sex-specific manner. 
 
+This work is currently supported by a **Pilot Funding Award** from [Mass General Brigham](https://www.massgeneralbrigham.org/) and a **[Post-Doctoral Save Our Scientists Grant](https://autismsciencefoundation.org/apply-for-a-sos-grant/)** from the Autism Science Foundation.
+
 <br><br>
